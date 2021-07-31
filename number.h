@@ -54,7 +54,7 @@ private:
 
     int m_decValue;
     int m_number;
-    string m_numberInput = "1062";
+    string m_numberInput = "68";
 
     int m_hexNumber[100] = {0};
     int m_decNumber[100] = {0};

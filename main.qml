@@ -34,10 +34,9 @@ Window {
     property var numberBin
 
     function arrHex(){
-        a="";
+        var a="";
         for(var i=0;i<2;i++)
-          a += numberHex[i]+'';
-
+          a += (numberHex[i]+'');
            return a;
        }
 
@@ -129,7 +128,7 @@ Window {
             Text {
 
                 id: hexadecimalValue
-                text: a
+                text: numberHex[0]+''+numberHex[1]
                 anchors.left: hexValue.left
                 anchors.leftMargin: 5
 
